@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF0F5">
+
+    <EditText
+        android:id="@+id/etReminderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nazwa (np. Weź leki)"
+        android:textSize="24sp"
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/btnSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WYBIERZ GODZINĘ (np. 21:00)"
+        android:textSize="20sp"
+        android:backgroundTint="#FF80AB"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz dni (zostaw puste = alarm jednorazowy):"
+        android:textSize="18sp"
+        android:textColor="#C71585"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbMon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poniedziałek"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbTue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wtorek"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbWed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Środa"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Czwartek"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbFri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piątek"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbSat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sobota"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cbSun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Niedziela"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

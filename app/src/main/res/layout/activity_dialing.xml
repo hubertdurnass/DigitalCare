@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/call_background"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvDialingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dzwonię do..."
+        android:textColor="#E0E0E0"
+        android:textSize="50sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvDialingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mama"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:id="@+id/tvDialingNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 456 789"
+        android:textColor="#E0E0E0"
+        android:textSize="30sp"
+        android:layout_marginBottom="64dp" />
+
+</LinearLayout>

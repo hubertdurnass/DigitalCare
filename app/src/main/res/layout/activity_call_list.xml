@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/call_bg"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_call_action"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="@string/voice_mode"
+        android:textSize="36sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:drawableTop="@android:drawable/ic_btn_speak_now"
+        android:drawablePadding="12dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or_choose_from_list"
+        android:textSize="26sp"
+        android:textColor="#2E7D32"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/lvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#A5D6A7"
+            android:dividerHeight="8dp"
+            android:background="#FFFFFF"
+            android:padding="16dp" />
+
+        <LinearLayout
+            android:id="@+id/scrollButtons"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="8dp">
+
+            <ImageButton
+                android:id="@+id/btnScrollUp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#81C784"
+                android:src="@android:drawable/arrow_up_float"
+                app:tint="#1B5E20"
+                android:contentDescription="@string/scroll_up" />
+
+            <ImageButton
+                android:id="@+id/btnScrollDown"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#81C784"
+                android:src="@android:drawable/arrow_down_float"
+                app:tint="#1B5E20"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/scroll_down" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/back"
+        android:textSize="28sp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

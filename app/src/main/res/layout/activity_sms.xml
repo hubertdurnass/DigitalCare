@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/sms_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KLIKNIJ PONIŻEJ, ABY NAPISAĆ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/arrow_down_float"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        app:tint="#0D47A1"
+        android:contentDescription="Strzałka w dół" />
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="@string/message_hint"
+        android:textSize="40sp"
+        android:gravity="top"
+        android:padding="12dp"
+        android:inputType="textMultiLine"
+        android:autofillHints="text"
+        android:background="@android:drawable/editbox_background"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:textColorHint="#888888"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnVoiceInput"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:backgroundTintMode="src_in"
+        android:drawableTop="@android:drawable/ic_btn_speak_now"
+        android:drawablePadding="8dp"
+        android:text="@string/btn_voice_sms"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/btn_send_sms"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:backgroundTint="#2196F3"
+        android:backgroundTintMode="src_in"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#F44336"
+        android:backgroundTintMode="src_in"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

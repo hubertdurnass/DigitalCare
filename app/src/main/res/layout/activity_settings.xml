@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@drawable/grey_gradient_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USTAWIENIA"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/btnGoToContacts"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="LISTA KONTAKTÓW"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnGoToReminders"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="PRZYPOMNIENIA"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="WRÓĆ"
+        android:textSize="28sp"
+        android:backgroundTint="#616161"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

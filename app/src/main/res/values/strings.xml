@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cyfrowy Opiekun</string>
+    <string name="title_call">ZADZWOŃ</string>
+    <string name="title_sms">SMS</string>
+    <string name="title_contacts">KONTAKTY</string>
+    <string name="btn_call">ZADZWOŃ</string>
+    <string name="btn_sms">SMS</string>
+    <string name="btn_contacts">LISTA KONTAKTÓW</string>
+    <string name="voice_prompt">Powiedz imię kontaktu</string>
+    <string name="voice_not_found">Nie znaleziono: %1$s</string>
+    <string name="add_contact">Dodaj</string>
+    <string name="edit_contact">Edytuj kontakt</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usuń</string>
+    <string name="confirm_delete">Usunąć %1$s?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="contact_name_sample">Mama</string>
+    <string name="contact_number_sample">123 456 789</string>
+    <string name="hangup">ROZŁĄCZ</string>
+    <string name="title_call_action">ZADZWOŃ</string>
+    <string name="scroll_up">Przewiń w górę</string>
+    <string name="scroll_down">Przewiń w dół</string>
+    <string name="contact_list_title">LISTA KONTAKTÓW</string>
+    <string name="voice_mode">GŁOSOWO</string>
+    <string name="or_choose_from_list">LUB WYBIERZ Z LISTY</string>
+    <string name="back">WRÓĆ</string>
+    <string name="incoming_call_label">DZWONI...</string>
+    <string name="incoming_number_placeholder">+00 000 000 000</string>
+    <string name="answer_call">📞 ODBIERZ</string>
+    <string name="decline_call">❌ ODRZUĆ</string>
+    <string name="message_hint">Wiadomość...</string>
+    <string name="btn_voice_sms">GŁOSOWO</string>
+    <string name="btn_send_sms">WYŚLIJ SMS</string>
+
+
+
+</resources>

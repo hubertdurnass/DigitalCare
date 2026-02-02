@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#DD000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvIncomingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incoming_call_label"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvIncomingNumber"
+        android:text="@string/incoming_number_placeholder"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#B3E5FC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="48dp" />
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="232dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAnswer"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/answer_call"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/btnDecline"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="@string/decline_call"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="27sp" />
+    </LinearLayout>
+</LinearLayout>
