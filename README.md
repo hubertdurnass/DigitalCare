@@ -26,7 +26,7 @@ Smartphones are often too complex for seniors due to small icons, low contrast, 
 
 | Home Screen | Calling Interface | Reminders List |
 |:---:|:---:|:---:|
-| ![Home Screen - Main Menu with SOS, Call, SMS, and Settings buttons](home.png) | ![Calling Interface - Simplified contact selection for making calls](call.png) | ![Reminders List - Shows a list of active alarms and appointments](reminders.png) |
+| ![Home Screen - Main Menu with SOS, Call, SMS, and Settings buttons](screenshots/home.png) | ![Calling Interface - Simplified contact selection for making calls](screenshots/call.png) | ![Reminders List - Shows a list of active alarms and appointments](screenshots/reminders.png) |
 
 ---
 
@@ -49,7 +49,7 @@ To run this project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/digital-care.git](https://github.com/YOUR-USERNAME/digital-care.git)
+    git clone [https://github.com/hubertdurnass/DigitalCare.git](https://github.com/hubertdurnass/DigitalCare.git)
     ```
 2.  **Open in Android Studio:**
     File -> Open -> Select the cloned folder.
@@ -60,6 +60,5 @@ To run this project locally:
 
 ## 👨‍💻 Author
 
-**Your Name** - *Electronics & Telecommunications Engineer (AGH UST)*
+**Hubert** - *Electronics & Telecommunications Engineer (AGH UST)*
 
-If you find this project interesting or want to discuss accessibility in tech, feel free to connect with me on [LinkedIn](LINK_DO_TWOJEGO_LINKEDIN).
