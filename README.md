@@ -26,7 +26,7 @@ Smartphones are often too complex for seniors due to small icons, low contrast, 
 
 | Home Screen | Calling Interface | Reminders List |
 |:---:|:---:|:---:|
-| ![Home Screen - Main Menu with SOS, Call, SMS, and Settings buttons](image_6.png) | ![Calling Interface - Simplified contact selection for making calls](image_7.png) | ![Reminders List - Shows a list of active alarms and appointments](image_2.png) |
+| ![Home Screen - Main Menu with SOS, Call, SMS, and Settings buttons](home.png) | ![Calling Interface - Simplified contact selection for making calls](call.png) | ![Reminders List - Shows a list of active alarms and appointments](reminders.png) |
 
 ---
 
